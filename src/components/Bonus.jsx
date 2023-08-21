@@ -12,7 +12,7 @@ const Bonus = () =>{
         <div>
             <h1>Bonus Component:</h1>
             <h3>Total Point : {points} </h3>
-            <button onClick={()=>dispatch(incrementBonus())}>Increment+</button>
+            <button onClick={()=>dispatch(incrementBonus())}>Increment +</button>
         </div>
     )
 }
