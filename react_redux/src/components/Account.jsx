@@ -12,6 +12,7 @@ const amount = useSelector(state=> state.account.amount);
         <div>
             <h3>Amount: ${amount}</h3>
             <h3>Points: ${points}</h3>
+            <span>Amount Section </span>
             <button onClick={()=>dispatch(increment())}>Increment +</button>
             <button onClick={()=>dispatch(decrement())}>Decrement -</button>
             <input onChange={(e)=> setValue(e.target.valueAsNumber)} type="number" placeholder="type number" />
