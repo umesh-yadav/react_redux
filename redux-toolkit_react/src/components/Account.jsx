@@ -10,7 +10,7 @@ const Account = () =>{
    
     return (
         <div>
-            <h3>Amount: $ {}</h3>
+            <h3>Amount: $ {amount}</h3>
             <button onClick={()=> dispatch(increment())}>Increment +</button>
             <button onClick={()=> dispatch(decrement())}>Decrement -</button>
             <input type='number' onChange={(e)=>setValue(e.target.valueAsNumber)} placeholder='Enter amount'/>
